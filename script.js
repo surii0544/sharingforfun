@@ -1,8 +1,8 @@
 
 //https://www.pinterest.com/sharinforfun/
-const PINTEREST_PROFILE_URL = "https://www.pinterest.com/";
+const PINTEREST_PROFILE_URL = "https://www.pinterest.com/sharingforfun";
 
-const pinterestLink = document.getElementById("pinterestLink");
+const pinterestLink = document.getElementById("https://pin.it/7h1XJfXHu");
 pinterestLink.href = PINTEREST_PROFILE_URL;
 
 const searchInput = document.getElementById("searchInput");
