@@ -1,8 +1,14 @@
 
 //https://www.pinterest.com/sharinforfun/
-const PINTEREST_PROFILE_URL = "https://www.pinterest.com/sharingforfun";
+const PINTEREST_PROFILE_URL = "https://www.pinterest.com/sharingforfun/";
 
-const pinterestLink = document.getElementById("https://pin.it/7h1XJfXHu");
+const pinterestLink = document.getElementById("pinterestLink");
+
+if (pinterestLink) {
+    pinterestLink.href = PINTEREST_PROFILE_URL;
+    pinterestLink.target = "_blank";
+    pinterestLink.rel = "noopener noreferrer";
+}
 pinterestLink.href = PINTEREST_PROFILE_URL;
 
 const searchInput = document.getElementById("searchInput");
