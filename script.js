@@ -1,6 +1,6 @@
 
 const PINTEREST_PROFILE_URL =
-    "https://pin.it/7ivXgIhAV";
+    "https://www.pinterest.com/sharingforfun/";
 const pinterestLink = document.getElementById("pinterestLink");
 
 if (pinterestLink) {
