@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cute Animal Friends printable coloring collection.">
+  <title>Cute Animal Friends | Sharing for Fun</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .animal-collection { max-width: 1100px; margin: 0 auto; padding: 55px 22px 75px; }
+    .animal-heading { text-align: center; margin-bottom: 35px; }
+    .animal-heading p:last-child { color: var(--muted); }
+    .animal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+    .animal-card { text-align: center; }
+    .animal-square { aspect-ratio: 1 / 1; width: 100%; border-radius: 16px; border: 1px dashed #c9cbbb; background: #f5f0e8; display: grid; place-items: center; padding: 18px; color: var(--muted); }
+    .animal-square strong { display: block; color: var(--ink); font-family: 'Playfair Display', serif; font-size: 1.15rem; }
+    .animal-square span { font-size: 2.5rem; display: block; margin-bottom: 8px; }
+    .animal-card h2 { font-size: 1.2rem; margin: 12px 0 4px; }
+    .animal-card p { color: var(--muted); font-size: .85rem; margin: 0; }
+    .back-gallery { display: inline-block; margin-top: 35px; color: var(--green-dark); font-weight: 700; }
+    @media (max-width: 650px) { .animal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } }
+    @media (max-width: 390px) { .animal-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-icon">✿</span><span>sharing <em>for</em> fun</span></a>
+  </header>
+  <main class="animal-collection">
+    <div class="animal-heading">
+      <p class="eyebrow">Printable coloring collection</p>
+      <h1>Cute Animal Friends</h1>
+      <p>Meet the little friends in our coloring collection.</p>
+    </div>
+    <div class="animal-grid">
+      <article class="animal-card">
+        <div class="animal-square"><div><span>🐱</span><strong>Cute Cat</strong>Upload: cute-cat.png</div></div>
+        <h2>Cute Cat</h2><p>Square preview · 1:1</p>
+      </article>
+      <article class="animal-card">
+        <div class="animal-square"><div><span>🐰</span><strong>Little Bunny</strong>Upload: little-bunny.png</div></div>
+        <h2>Little Bunny</h2><p>Square preview · 1:1</p>
+      </article>
+      <article class="animal-card">
+        <div class="animal-square"><div><span>🐻</span><strong>Happy Bear</strong>Upload: happy-bear.png</div></div>
+        <h2>Happy Bear</h2><p>Square preview · 1:1</p>
+      </article>
+    </div>
+    <a class="back-gallery" href="index.html#gallery">← Back to Gallery</a>
+  </main>
+  <footer class="footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-icon">✿</span><span>sharing <em>for</em> fun</span></a>
+    <p>Made with ♡ and a little imagination.</p>
+  </footer>
+</body>
+</html>
