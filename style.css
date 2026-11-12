@@ -142,3 +142,9 @@ h2 { font-size:clamp(2rem, 3.8vw, 3.2rem); margin-bottom:18px; }
   .gallery-grid { grid-template-columns:1fr; }
   .art-preview { height:250px; }
 }
+.art-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
