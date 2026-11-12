@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bloom with Joy flower coloring collection.">
+  <title>Bloom with Joy | Sharing for Fun</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bloom-collection { max-width: 1050px; margin: 0 auto; padding: 55px 22px 75px; }
+    .bloom-heading { text-align: center; margin-bottom: 35px; }
+    .bloom-heading p:last-child { color: var(--muted); }
+    .bloom-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+    .bloom-item { display: block; color: inherit; text-decoration: none; }
+    .bloom-square { width: 100%; aspect-ratio: 1 / 1; border-radius: 16px; overflow: hidden; background: #fffdf8; border: 1px solid var(--line); }
+    .bloom-square img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .bloom-item h2 { font-size: 1.25rem; margin: 12px 0 4px; }
+    .bloom-item p { color: var(--muted); font-size: .85rem; margin: 0; }
+    .back-gallery { display: inline-block; margin-top: 35px; color: var(--green-dark); font-weight: 700; }
+    @media (max-width: 650px) { .bloom-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } }
+    @media (max-width: 390px) { .bloom-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-icon">✿</span><span>sharing <em>for</em> fun</span></a>
+  </header>
+  <main class="bloom-collection">
+    <div class="bloom-heading">
+      <p class="eyebrow">Printable flower coloring collection</p>
+      <h1>Bloom with Joy</h1>
+      <p>Choose a flower design and enjoy a little creative time.</p>
+    </div>
+    <div class="bloom-grid">
+      <a class="bloom-item" href="flowers.html">
+        <div class="bloom-square">
+          <img src="flower-basket-coloring-page.png.png" alt="Flower Basket coloring page">
+        </div>
+        <h2>Flower Basket</h2>
+        <p>Open and print this coloring page</p>
+      </a>
+    </div>
+    <a class="back-gallery" href="index.html#gallery">← Back to Gallery</a>
+  </main>
+  <footer class="footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-icon">✿</span><span>sharing <em>for</em> fun</span></a>
+    <p>Made with ♡ and a little imagination.</p>
+  </footer>
+</body>
+</html>
