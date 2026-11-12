@@ -148,3 +148,10 @@ h2 { font-size:clamp(2rem, 3.8vw, 3.2rem); margin-bottom:18px; }
   object-fit: contain;
   display: block;
 }
+
+/* Bloom with Joy uses a square 1:1 gallery preview. */
+.art-preview.bloom-image-preview {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  background: #fffdf8;
+}
