@@ -149,9 +149,19 @@ h2 { font-size:clamp(2rem, 3.8vw, 3.2rem); margin-bottom:18px; }
   display: block;
 }
 
-/* Bloom with Joy uses a square 1:1 gallery preview. */
+/* Square 1:1 image tile for Bloom with Joy */
 .art-preview.bloom-image-preview {
+  width: 100%;
   aspect-ratio: 1 / 1;
   height: auto;
+  min-height: 0;
+  display: block;
+  overflow: hidden;
   background: #fffdf8;
+}
+.art-preview.bloom-image-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
