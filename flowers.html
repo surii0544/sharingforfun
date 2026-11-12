@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Basket Coloring Page | Sharing for Fun</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .coloring-page {
+      max-width: 750px;
+      margin: 35px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .coloring-page img {
+      width: 100%;
+      max-width: 650px;
+      height: auto;
+      border: 1px solid #eee;
+      border-radius: 12px;
+    }
+
+    .print-button {
+      background: #647a5b;
+      color: white;
+      border: none;
+      padding: 13px 25px;
+      border-radius: 30px;
+      cursor: pointer;
+      margin: 15px;
+      font-size: 16px;
+    }
+
+    @media print {
+      header, footer, .print-button, .back-link {
+        display: none !important;
+      }
+      .coloring-page {
+        margin: 0;
+        padding: 0;
+      }
+      .coloring-page img {
+        max-width: 100%;
+        border: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-icon">✿</span>
+      <span>sharing <em>for</em> fun</span>
+    </a>
+  </header>
+
+  <main class="coloring-page">
+    <p class="eyebrow">Free coloring page</p>
+    <h1>Flower Basket</h1>
+    <p>Enjoy this beautiful floral coloring design!</p>
+
+    <img src="flower-basket-coloring-page.png"
+         alt="Flower basket coloring page">
+
+    <br>
+
+    <button class="print-button" onclick="window.print()">
+      Print Coloring Page
+    </button>
+
+    <p><a class="back-link" href="index.html">← Back to Gallery</a></p>
+  </main>
+
+</body>
+</html>
