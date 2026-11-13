@@ -14,6 +14,9 @@
     .bloom-item { display: block; color: inherit; text-decoration: none; }
     .bloom-square { width: 100%; aspect-ratio: 1 / 1; border-radius: 16px; overflow: hidden; background: #fffdf8; border: 1px solid var(--line); }
     .bloom-square img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .bloom-placeholder { width: 100%; aspect-ratio: 1 / 1; border-radius: 16px; border: 1px dashed #c9cbbb; background: #f5f0e8; display: grid; place-items: center; text-align: center; padding: 18px; color: var(--muted); }
+    .bloom-placeholder span { display: block; font-size: 2.7rem; margin-bottom: 8px; }
+    .bloom-placeholder strong { color: var(--ink); font-family: "Playfair Display", serif; font-size: 1.15rem; }
     .bloom-item h2 { font-size: 1.25rem; margin: 12px 0 4px; }
     .bloom-item p { color: var(--muted); font-size: .85rem; margin: 0; }
     .back-gallery { display: inline-block; margin-top: 35px; color: var(--green-dark); font-weight: 700; }
@@ -39,6 +42,16 @@
         <h2>Flower Basket</h2>
         <p>Open and print this coloring page</p>
       </a>
+      <article class="bloom-item">
+        <div class="bloom-placeholder"><div><span>🌹</span><strong>Rose Garden</strong><p>Upload: rose-garden.png</p></div></div>
+        <h2>Rose Garden</h2>
+        <p>Square preview · 1:1</p>
+      </article>
+      <article class="bloom-item">
+        <div class="bloom-placeholder"><div><span>🌻</span><strong>Happy Sunflowers</strong><p>Upload: happy-sunflowers.png</p></div></div>
+        <h2>Happy Sunflowers</h2>
+        <p>Square preview · 1:1</p>
+      </article>
     </div>
     <a class="back-gallery" href="index.html#gallery">← Back to Gallery</a>
   </main>
