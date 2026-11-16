@@ -13,8 +13,8 @@
     .animal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
     .animal-card { text-align: center; }
     .animal-square { aspect-ratio: 1 / 1; width: 100%; border-radius: 16px; border: 1px dashed #c9cbbb; background: #f5f0e8; display: grid; place-items: center; padding: 18px; color: var(--muted); }
-    .animal-image { padding: 0; overflow: hidden; background: #fffdf8; border-style: solid; }
-    .animal-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .animal-image { padding: 0; overflow: hidden; background: #fffdf8; border: 0; }
+    .animal-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
     .animal-card h2 { font-size: 1.2rem; margin: 12px 0 4px; }
     .animal-card p { color: var(--muted); font-size: .85rem; margin: 0; }
     .back-gallery { display: inline-block; margin-top: 35px; color: var(--green-dark); font-weight: 700; }
