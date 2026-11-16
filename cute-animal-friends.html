@@ -13,10 +13,8 @@
     .animal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
     .animal-card { text-align: center; }
     .animal-square { aspect-ratio: 1 / 1; width: 100%; border-radius: 16px; border: 1px dashed #c9cbbb; background: #f5f0e8; display: grid; place-items: center; padding: 18px; color: var(--muted); }
-    .animal-square strong { display: block; color: var(--ink); font-family: 'Playfair Display', serif; font-size: 1.15rem; }
     .animal-image { padding: 0; overflow: hidden; background: #fffdf8; border-style: solid; }
     .animal-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
-    .animal-square span { font-size: 2.5rem; display: block; margin-bottom: 8px; }
     .animal-card h2 { font-size: 1.2rem; margin: 12px 0 4px; }
     .animal-card p { color: var(--muted); font-size: .85rem; margin: 0; }
     .back-gallery { display: inline-block; margin-top: 35px; color: var(--green-dark); font-weight: 700; }
@@ -36,16 +34,25 @@
     </div>
     <div class="animal-grid">
       <article class="animal-card">
-        <div class="animal-square animal-image"><img src="cat%20coloring%20page.png" alt="Cat coloring page"></div>
-        <h2>Cute Cat</h2><p>Square preview · 1:1</p>
+        <div class="animal-square animal-image">
+          <img src="cat%20coloring%20page.png" alt="Cute Cat Coloring Page">
+        </div>
+        <h2>Cute Cat</h2>
+        <p>Printable Coloring Page</p>
       </article>
       <article class="animal-card">
-        <div class="animal-square"><div><span>🐰</span><strong>Little Bunny</strong>Upload: little-bunny.png</div></div>
-        <h2>Little Bunny</h2><p>Square preview · 1:1</p>
+        <div class="animal-square animal-image">
+          <img src="bunny%20coloring%20page.png" alt="Little Bunny Coloring Page">
+        </div>
+        <h2>Little Bunny</h2>
+        <p>Printable Coloring Page</p>
       </article>
       <article class="animal-card">
-        <div class="animal-square"><div><span>🐻</span><strong>Happy Bear</strong>Upload: happy-bear.png</div></div>
-        <h2>Happy Bear</h2><p>Square preview · 1:1</p>
+        <div class="animal-square animal-image">
+          <img src="bear%20colorin%20page.png" alt="Happy Bear Coloring Page">
+        </div>
+        <h2>Happy Bear</h2>
+        <p>Printable Coloring Page</p>
       </article>
     </div>
     <a class="back-gallery" href="index.html#gallery">← Back to Gallery</a>
